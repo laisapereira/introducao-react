@@ -1,0 +1,53 @@
+.card {
+    border-radius: 8px;
+    border: 1px solid #c3c3c3;
+    box-shadow: 0 2px 7px 0 rgba(0, 0 ,0 , 0.15);
+    display:flex;
+    padding: 15px;
+    align-items: flex-start;
+}
+
+.card-image {
+    max-width:100px;
+    margin-right: 20px;
+}
+
+.card-title {
+    font-size: 16px;
+
+}
+
+.card-price {
+    font-size: 26px;
+    font-weight: bold;
+    color: #3498DB;
+}
+
+.card-comment {
+    font-size:16px;
+    color: #95A5A6;
+    font-weight: bold;
+
+}
+
+.card-footer {
+    display:flex;
+    gap: 10px;
+    
+}
+
+.card-comment-count {
+    margin-left: auto; 
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    color: #3498DB;
+}
+
+.card-link {
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+    color: #3498DB;
+    text-decoration: none;
+    padding: 8px 10px;
+}
